@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Perfect Match
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"><br>Descubra o quão compatível você é do seu amor</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <form>
+    <ion-input type ="text" required placeholder ="Insira seu nome" [(ngModel)]="nome1" name="nome1"></ion-input>
+    <ion-input type ="text" required placeholder ="Insira o nome do seu amor" [(ngModel)]="nome2" name="nome2"></ion-input>
+    <p>Aow trem que pula tchê, tchê, tchê</p>
+
+    <ion-button block color="danger" (click)="calcular()">
+    Enviar
+    </ion-button>
+
+    {{porcentagem}}
+
+  </form>
+
+</ion-content>

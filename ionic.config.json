@@ -1,5 +1,7 @@
 {
-  "name": "projetoTaci-blank",
-  "integrations": {},
+  "name": "charada",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
